@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="big-container">
+
+        <div id="image-container">
+
+            <img src="shoes.png" alt="">
+        </div>
+        <div class="shoes-box-container">
+            <h1>Nike shoes</h1>
+            <div class="size">
+                <div class="number">
+                    <p> SIZE :</p>
+                    <button>2</button><button>8</button><button>9</button><button>10</button>
+                </div>
+            </div>
+            <div id="color-container">
+
+              <label for="" class="color">Color :</label>
+                <button type="button" class="vert">vert</button>
+                <button type="button"onclick="changeBigContainerBg('bleue')" class="bleue">bleue</button>
+                <button type="button" class="rose" onclick="changeBigContainerBg('pink')"></button>
+            </div>
+            <button id="day">Day New</button>
+        </div>
+
+    </div>
+    <script>
+        // // Function to change webpage background color
+        // function changeBodyBg(color){
+        //     document.body.style.background = color;
+        // }
+        
+        // Function to change heading background color
+        function changeBigContainerBg(color){
+            document.getElementById("big-container").style.background = color;
+        }
+    </script>
+
+</body>
+
+</html>
