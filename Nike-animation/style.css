@@ -1,0 +1,214 @@
+            body {
+                background-color: black;
+                height: 100vh;
+                margin: auto;
+                display: grid;
+                place-content: center;
+                display: grid;
+            }
+            
+.blue  #big-container{
+    border: 2px solid #2f71ff;
+}
+.blue  #big-container #image-container{
+   background-color:  #2f71ff;
+   border: 2px solid #2f71ff;
+}
+
+.green  #big-container{
+    border: 2px solid #5ee61f;
+}
+.green  #big-container #image-container{
+   background-color:  #6aff2f;
+   border: 2px solid #6aff2f;
+}
+.pink  #big-container{
+    border: 2px solid #e61f7c;
+}
+.pink #big-container #image-container{
+   background-color:  #e61f7c;
+   border: 2px solid #e61f7c;
+}
+
+
+
+            #big-container {
+                max-width: 400px;
+                height: 650px;
+                background-color: black;
+                /* opacity: 1.5px; */
+                border: 2px solid greenyellow;
+                margin: auto;
+                /* margin-top: 20%; */
+                overflow: hidden;
+                position: relative;
+                border-radius: 15px;
+            }
+            
+            #big-container:hover .shoes-box-container h1 {
+             transform: translateY(0);
+             font-size: 2em;
+        
+            }
+            #big-container:hover  .size  {
+                transform: translateY(0);
+               
+            }
+            #big-container:hover #color-container{
+                transform: translateY(0);
+          
+            }
+            #big-container:hover #day{
+                transform: translateY(0);
+           
+            }
+            #big-container:hover #image-container{
+                border-radius: 0PX 0px 10px 250Px;
+                margin-left: 0;
+                margin-right: 55px;
+                transform: translateY(-60px);
+            }
+            #big-container:hover #image-container img{
+                width: 70%;
+                transform: rotate(-30deg);
+                margin-top: 60%;
+                margin-left: 60px;
+            }
+            
+            #big-container::before {
+                content: "Nike";
+                font-size: 15rem;
+                color: rgba(173, 219, 103, 0.103);
+                top: 50%;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+                z-index: 1;
+            }
+            
+            #image-container {
+                width: 400px;
+                height: 400px;
+                border: 2px solid greenyellow;
+                background-color: greenyellow;
+                border-radius: 50%;
+                margin-left: 80px;
+               
+                position: relative;
+                margin-top: -90px;
+                transition: all .7s;
+            }
+           
+            
+            #image-container img {
+                width: 70%;
+                margin-left: 3px;
+                margin-top: 300px;
+                transform: rotate(-25deg);
+                transition: all .7s;
+               
+            }
+            
+            .shoes-box-container {
+                width: 400px;
+                height: 250px;
+                color: azure;
+                /* margin-bottom: 70px; */
+                position: relative;
+                bottom: 0;
+                z-index: 2;
+            }
+            
+            .shoes-box-container h1 {
+                text-align: center;
+                transform: translateY(80px);
+                transition: all .7s;
+                font-size: 4em;
+            }
+            
+            .size {
+                margin: auto;
+                width: 100%;
+                height: 130px;
+                left: 50px;
+                transform: translateY(400px);
+            }
+            
+            .size,
+            #color-container,
+            #day {
+                transform: translateY(400px);
+                transition: all .8s;
+            }
+            
+            .number {
+                display: flex;
+                justify-content: center;
+                margin-left: -60px;
+            }
+            
+            .number p {
+                margin-right: 20px;
+                margin-top: 5px;
+            }
+            
+            button {
+                margin: 5px;
+                height: 20px;
+                width: 25px;
+            }
+            
+            #color-container {
+                margin: auto;
+                width: 100%;
+                height: 50px;
+                left: 70px;
+                display: flex;
+                justify-content: center;
+                margin-left: -20px;
+                margin-top: -80px;
+            }
+            
+            .color {
+                margin-right: 20px;
+            }
+            
+            .vert {
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color:greenyellow;
+                margin-right: 5px;
+            }
+            
+            .bleue {
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color: rgb(0, 132, 255);
+                margin-right: 5px;
+                box-shadow: 1px 1px 1px 1px  white;
+            }
+            
+    
+        
+            
+        
+            
+
+            
+            .rose {
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color: rgb(230, 22, 230);
+                margin-right: 5px;
+            }
+            
+            #day {
+                width: 100px;
+                height: 40px;
+                margin: auto;
+                margin-left: 32%;
+                border-radius: 10px;
+            }
